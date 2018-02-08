@@ -74,9 +74,9 @@ public class Trajectory : MonoBehaviour
         float alpha = LaunchAngle * Mathf.Deg2Rad;  // in radians
 
         // calculate initial speed required to land the projectile on target object using the formula (9)
-        float Vi = Mathf.Sqrt(-R * G / Mathf.Sin(2 * alpha));    // initial speed Vo
-        float Vy = Vi * Mathf.Sin(alpha); // velocity component in upward  direction of local space
-        float Vz = Vi * Mathf.Cos(alpha); // velocity component in forward direction of local space
+        float V0 = Mathf.Sqrt(-R * G / Mathf.Sin(2 * alpha));    // initial speed
+        float Vy = V0 * Mathf.Sin(alpha); // velocity component in upward  direction of local space
+        float Vz = V0 * Mathf.Cos(alpha); // velocity component in forward direction of local space
 
         // create the velocity vector in local space and get it in global space
         Vector3 localVelocity = new Vector3(0f, Vy, Vz);
