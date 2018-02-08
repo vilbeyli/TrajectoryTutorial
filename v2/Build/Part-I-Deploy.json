@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "TrajectoryTutorialv2.0.0",
+"dataUrl": "Part-I-Deploy.data.unityweb",
+"asmCodeUrl": "Part-I-Deploy.asm.code.unityweb",
+"asmMemoryUrl": "Part-I-Deploy.asm.memory.unityweb",
+"asmFrameworkUrl": "Part-I-Deploy.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
