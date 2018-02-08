@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetObject: {fileID: 333833237}
-  TargetDistance: 5
+  TargetRadius: 5
   LaunchAngle: 60
 --- !u!54 &68451910
 Rigidbody:
