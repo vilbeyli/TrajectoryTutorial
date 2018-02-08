@@ -8,6 +8,8 @@ Part-I will be published sometime soon, Part-II sometime later and the links bel
  - Blog site: Part-I Link]()
  - Blog site: Part-II Link]()
 
+v2.0 WebGL Build: [Trajectory Tutorial v2.0 - Part I](http://vilbeyli.github.io/TrajectoryTutorial/v2/)
+
 ## Changelog
 
  - New project from scratch, with minimal asset usage
@@ -20,4 +22,4 @@ Shoot arrows &amp; missiles in 3D space in Unity3D - a simple trajectory motion 
 
 Source: [Simple Trajectory Motion Example Unity3D](http://vilbeyli.github.io/Simple-Trajectory-Motion-Example-Unity3D/)
 
-WebGL Build: [Trajectory Tutorial](http://vilbeyli.github.io/TrajectoryTutorial) 
+v1.0 WebGL Build: [Trajectory Tutorial](http://vilbeyli.github.io/TrajectoryTutorial) 
