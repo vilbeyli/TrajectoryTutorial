@@ -1,14 +1,21 @@
 # TrajectoryTutorial v2.0
 
 After plenty of requests from comments of [the original tutorial](https://vilbeyli.github.io/Simple-Trajectory-Motion-Example-Unity3D/) on how to make launching work for arbitrary heights,
-I've decided to rewrite the tutorial and make it a 2-part series with this v2.0. 
+I've decided to rewrite the tutorial and make it a 2-part series.
 
-Part-I will be published sometime soon, Part-II sometime later and the links below will be updated accordingly.
+[Part I](https://vilbeyli.github.io/Unity3D-Trajectory-Motion-Tutorial-for-Arrows-and-Missiles-Part-I/) focuses on setting up the unity project and covers the simpler case of launching the projectile towards a target on the same plane as the projectile's launch position. 
 
- - Blog site: Part-I Link]()
- - Blog site: Part-II Link]()
+![](https://vilbeyli.github.io/images/posts/trajectory-part-i/part-i-final.gif)
 
-v2.0 WebGL Build: [Trajectory Tutorial v2.0 - Part I](http://vilbeyli.github.io/TrajectoryTutorial/v2/)
+[Part II](https://vilbeyli.github.io/Unity3D-Trajectory-Motion-Tutorial-for-Arrows-and-Missiles-Part-II/) handles the arbitrary heights for the target position by solving a more complex kinematic equation.
+
+![]() 
+
+*[ Screenshot work in progress ]*
+
+**v2.0 WebGL Builds**
+ - [Trajectory Tutorial v2.0 - Part I](http://vilbeyli.github.io/TrajectoryTutorial/v2/)
+ - *Trajectory Tutorial v2.0 - Part II - Work In Progress*
 
 ## Changelog
 
