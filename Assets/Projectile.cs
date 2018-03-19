@@ -80,6 +80,9 @@ public class Projectile : MonoBehaviour
     }
 
     // returns the distance between the red dot and the TargetObject's y-position
+    // this is a very little offset considered the ranges in this demo so it shouldn't make a big difference.
+    // however, if this code is tested on smaller values, the lack of this offset might introduce errors.
+    // to be technically accurate, consider using this offset together with the target platform's y-position.
     float GetPlatformOffset()
     {
         float platformOffset = 0.0f;
@@ -125,6 +128,8 @@ public class Projectile : MonoBehaviour
         float tanAlpha = Mathf.Tan(LaunchAngle * Mathf.Deg2Rad);
         float H = (TargetObjectTF.position.y + GetPlatformOffset()) - transform.position.y;
 
+        // calculate the local space components of the velocity 
+        // required to land the projectile on the target object 
         float Vz = Mathf.Sqrt(G * R * R / (2.0f * (H - R * tanAlpha)) );
         float Vy = tanAlpha * Vz;
 
